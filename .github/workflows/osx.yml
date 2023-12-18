@@ -31,7 +31,7 @@ env:
   MACOS_BASEKIT_COMPONENTS: intel.oneapi.mac.mkl.devel
   MACOS_HPCKIT_URL: https://registrationcenter-download.intel.com/akdlm/IRC_NAS/edb4dc2f-266f-47f2-8d56-21bc7764e119/m_HPCKit_p_2023.2.0.49443_offline.dmg
   MACOS_HPCKIT_COMPONENTS: intel.oneapi.mac.cpp-compiler:intel.oneapi.mac.ifort-compiler
-  OPENMPI_URL: https://download.open-mpi.org/release/open-mpi/v4.1/openmpi-4.1.5.tar.gz
+  OPENMPI_URL: https://download.open-mpi.org/release/open-mpi/v5.0/openmpi-5.0.0.tar.gz
 
 
 jobs:
