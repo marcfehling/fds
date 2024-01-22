@@ -50,7 +50,7 @@ jobs:
                           intel-oneapi-mkl-devel | tee dependencies.txt
     - name: cache install oneapi
       id: cache-install
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: /opt/intel/oneapi
         key: install-${{ hashFiles('**/dependencies.txt') }}
@@ -105,7 +105,7 @@ jobs:
         apt-cache depends intel-oneapi-mkl-devel | tee dependencies.txt
     - name: cache install oneapi
       id: cache-install
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: /opt/intel/oneapi
         key: install-${{ hashFiles('**/dependencies.txt') }}
