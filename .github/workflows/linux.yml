@@ -34,15 +34,9 @@ jobs:
     - uses: rscohn2/setup-oneapi@v0
       with:
         components: |
-          ifx
+          ifx@2025.0.3
           impi
           mkl
-
-    - uses: actions/upload-artifact@v4
-      if: failure()
-      with:
-        name: oneapi_installer_2025.01.07.10.19.54.828
-        path: /tmp/root/intel_oneapi_installer/2025.01.07.10.19.54.828
 
     - uses: actions/checkout@v4
 
